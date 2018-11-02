@@ -1,0 +1,35 @@
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+  border: 2px solid #f4c2c2;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 3px solid #6e0dd0;
+  border-radius: 10px;
+}
+
+.list-group-item {
+  cursor: url('/style/hand20px.svg'), auto;
+
+      transition: background-color 0.2s linear;
+      -webkit-transition: background-color 0.2s linear;
+      -moz-transition: background-color 0.2s linear;
+}
+
+.list-group-item:hover {
+  background-color: #f4c2c2;
+}
