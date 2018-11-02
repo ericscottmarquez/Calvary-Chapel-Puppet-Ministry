@@ -1,6 +1,4 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+# A web application designed for children to watch Christian puppet shows from anywhere in the world.
 
 ### Getting Started
 
