@@ -1,4 +1,6 @@
 
+
+
 .search-bar {
   margin: 20px;
   text-align: center;
@@ -31,5 +33,9 @@
 }
 
 .list-group-item:hover {
-  background-color: #f4c2c2;
+  background-color: #01befe;
+}
+
+.list-group-item:active {
+  background-color: #8f00ff;
 }
