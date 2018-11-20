@@ -9,9 +9,6 @@ import VideoDetail from './components/video_detail'
 const API_KEY = 'AIzaSyCSWgA2OQZJoOhJKODwMFRylcpHB0cr7Wk';
 
 
-
-
-
 // create a new component it should produce some html
 class App extends Component {
 
@@ -24,7 +21,6 @@ class App extends Component {
     };
 
     this.videoSearch('puppet ministry calvary chapel');
-
   }
 
 
@@ -38,14 +34,13 @@ videoSearch(term) {
   });
 }
 
-
   render () {
 
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
 
     return (
       <div>
-          <SearchBar onSearchTermChange={ videoSearch } />
+
           <VideoDetail video={ this.state.selectedVideo } />
           <VideoList 
             onVideoSelect={ selectedVideo => this.setState({selectedVideo}) }
